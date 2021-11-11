@@ -1,0 +1,198 @@
+/* Header css */
+img {
+    cursor: pointer;
+}
+.headerdiv{
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.headerdiv {
+    background-color: white;
+    /* border: 1px solid red; */
+    position: sticky;
+    /* overflow: hidden; */
+    height: 70px;
+    top: 0;
+    box-shadow: 0px 2px 14px rgb(0 0 0 / 11%);
+    align-items: center;
+}
+li {
+    color: black;
+}
+
+.left ul {
+    display: inline-flex;
+   list-style: none; 
+   color: black;
+}
+
+.left ul li {
+    /* width: 120px; */
+    margin: 5px;
+    padding: 15px;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.explore-sub {
+    display: none;
+}
+
+.left ul li:hover .explore-sub {
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.left ul li:hover .explore-sub ul {
+    display: block;
+    margin: 10px;
+}
+
+.left ul li:hover .explore-sub ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: black;
+}
+.left ul li:hover .explore-sub ul li:hover {
+    background-color: #ffb919;
+}
+
+
+
+
+
+
+
+.left {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+.right {
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 40%;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right ul {
+   display: flex;
+   list-style: none; 
+   color: black;
+   justify-content: space-between;
+}
+
+.right ul li {
+    /* width: 120px; */
+    margin: 5px;
+    padding: 15px;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.acc {
+    display: none;
+}
+
+.right ul li:hover .acc {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-right: -15px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.right ul li:hover .acc ul {
+    display: block;
+    margin: 10px;
+}
+.right ul li:hover .acc ul li {
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: black;
+}
+.right ul li:hover .acc ul li:last-child {
+    border-bottom: none;
+}
+
+.right ul li:hover .acc ul li:hover {
+    background-color: rgb(201, 197, 197);
+}
+
+.f {
+    height: 1500px;
+}
+
+
+.sub-menu-2 {
+    display: none;
+    /* display: flex; */
+}
+
+.hover-me:hover .sub-menu-2 {
+    display: flex;
+    position: absolute;
+    display: block;
+    top: 0;
+    /* margin-top: 0px; */
+    margin-left: 140px;
+    background-color: white;
+}
+
+.get {
+    padding-top: 8px;
+    /* padding-right: 8px; */
+    border-radius: 10px;
+    text-align: center;
+    /* align-items: center; */
+    width: 150px;
+    height: 40px;
+    /* border: 1px solid red; */
+    background-color: #ffead5;
+}
+
+span {
+    color: #999999;
+}
+
+#bold{
+    font-weight: 600;
+    color: black;
+}
+.bold {
+    color: black;
+    font-weight: 600;
+}
+
+.fas {
+    font-size: 16px;
+}
