@@ -1,0 +1,67 @@
+#sub {
+    /* border: 2px solid green; */
+    height: 130px;
+    width: 95%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #ecf1fa;
+    background-image: url(https://www.ubuy.co.in/skin/frontend/default/ubuycom-v1/images/stay-connected.svg);
+}
+
+img {
+    cursor: pointer;
+  }
+
+#subHead {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    margin-left: 110px;
+}
+#inputButton {
+    width: 550px;
+    height: 60px;
+    border-radius: 30px;
+}
+#inputBox {
+    /* border: 1px solid grey; */
+    width: 400px;
+    height: 60px;
+    border-radius: 25px;
+    border-right: none;
+}
+#subscribe {
+    width: 130px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: #ffb919;
+    color: #ffffff;
+    border: none;
+}
+#subscribe:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#stay {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #151515;
+    margin-right: 150px;
+}
+.heading {
+    font-size: 25px;
+    line-height: 25px;
+}
