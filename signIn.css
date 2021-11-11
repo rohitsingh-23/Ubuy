@@ -1,0 +1,472 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#main {
+    /* border: 2px solid black; */
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8fa;
+}
+
+img {
+    cursor: pointer;
+  }
+
+  
+#leftBox {
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+#rightBox {
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 500px;
+    margin-right: 150px;
+    margin-top: 70px;
+    /* margin-left: 700px; */
+}
+.box {
+    margin-top: 20px;
+}
+#email:hover{
+    border-bottom-color: #ffb919;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#password:hover{
+    border-bottom-color: #ffb919;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#password {
+    margin-top: 15px;
+    width: 410px;
+    height: 40px; 
+    /* border: 1px solid grey; */
+}
+#email {
+    width: 410px;
+    height: 40px;
+}
+#createAccountBtn {
+    width: 348px;
+    border-radius: 5px;
+}
+#createAccountBtn:hover {
+    color: black;
+    cursor: pointer;
+}
+#btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 80px;
+    width: 280px;
+    line-height: 27px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: #ffb919;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 40px;
+}
+#btn:hover {
+    color: black;
+    cursor: pointer;
+}
+#forgot:hover {
+    color: black;
+    cursor: pointer;
+}
+#forgot {
+    margin-left: 120px;
+    color: #ffb919;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: underline;
+}
+#nestedRight {
+    /* border: 2px solid black; */
+    height: 280px;
+    width: 350px;
+    /* margin-left: 30px; */
+    margin-top: 58px;
+}
+#rightHeading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+#createAccountBtn {
+    width: 350px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    line-height: 21px;
+    margin-bottom: 50px;
+    height: 30px;
+    background-color: #ffb919;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+}
+.list{
+    /* border: 2px solid black; */
+    font-size: 15px;
+    line-height: 12px;
+    font-weight: 700;
+    font-family: Open Sans;
+}
+#sub {
+    /* border: 2px solid green; */
+    height: 130px;
+    width: 95%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #ecf1fa;
+    background-image: url(https://www.ubuy.co.in/skin/frontend/default/ubuycom-v1/images/stay-connected.svg);
+}
+#subHead {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    margin-left: 110px;
+}
+#inputButton {
+    width: 550px;
+    height: 60px;
+    border-radius: 30px;
+}
+#inputBox {
+    /* border: 1px solid grey; */
+    width: 400px;
+    height: 60px;
+    border-radius: 25px;
+    border-right: none;
+}
+#nestedLeft {
+    margin-left: 80px;
+    /* border: 2px solid red; */
+    margin-top: 58px;
+    width: 400px;
+    height: 280px;
+}
+#continueWith {
+    margin-top: 50px;
+    width: 420px;
+    /* border: 2px solid green; */
+    height: 37px;
+    display: flex;
+}
+#withFacebook {
+    width: 300px;
+    /* border: 2px solid black;   */
+    display: flex;
+}
+#withFacebook:hover{
+    cursor:pointer;
+}
+#withGoogle:hover{
+    cursor:pointer;
+}
+.imgFb{
+    width: 25px;
+    height: 100%;
+    /* border: 2px solid black; */
+    
+}
+.imgGoogle{
+    width: 25px;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.textFb{
+    width: 165px;
+    height: 100%;
+    /* border: 2px solid green; */
+    line-height: 11px;
+    font-size: 13px;
+    background-color:#395697 ;
+    color: white;
+}
+.textGoogle{
+    width: 165px;
+    height: 100%;
+    /* border: 2px solid green; */
+    line-height: 11px;
+    font-size: 13px;
+    background-color: #1a73e8;
+    color: white;
+}
+#withGoogle {
+    width: 300px;
+    margin-left: 8px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+#subscribe {
+    width: 130px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: #ffb919;
+    color: #ffffff;
+    border: none;
+}
+#subscribe:hover {
+    color: black;
+    cursor: pointer;
+}
+#stay {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #151515;
+    margin-right: 150px;
+}
+.heading {
+    font-size: 25px;
+    line-height: 25px;
+}
+/* ul>li {
+    font-family: 'Open Sans';
+} */
+#line {
+    width: 1px;
+    height: 455px;
+    margin-top: 65px;
+    background-color: grey;
+}
+#yellowLine {
+    width: 5px;
+    height: 50px;
+    /* border: 2px solid black; */
+    background-color: #ffb919;
+    border: none;
+    margin-left: 120px;
+}
+.fab{
+    color: #395697;
+    margin-top: 10px;
+}
+.imgGoogle{
+    width: 27px;
+    height: 30px;
+}
+#rightHeading{
+    font-size: 25px;
+}
+
+
+/* Header css */
+.headerdiv{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.headerdiv {
+    background-color: white;
+    /* border: 1px solid red; */
+    position: sticky;
+    /* overflow: hidden; */
+    height: 70px;
+    top: 0;
+    box-shadow: 0px 2px 14px rgb(0 0 0 / 11%);
+    align-items: center;
+}
+
+.left ul {
+    display: inline-flex;
+   list-style: none; 
+   color: black;
+}
+
+.left ul li {
+    /* width: 120px; */
+    margin: 5px;
+    padding: 15px;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.explore-sub {
+    display: none;
+}
+
+.left ul li:hover .explore-sub {
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.left ul li:hover .explore-sub ul {
+    display: block;
+    margin: 10px;
+}
+
+.left ul li:hover .explore-sub ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: black;
+}
+.left ul li:hover .explore-sub ul li:hover {
+    background-color: #ffb919;
+}
+
+
+
+
+
+
+
+.left {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+.right {
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 40%;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right ul {
+   display: flex;
+   list-style: none; 
+   color: black;
+   justify-content: space-between;
+}
+
+.right ul li {
+    /* width: 120px; */
+    margin: 5px;
+    padding: 15px;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.acc {
+    display: none;
+}
+
+.right ul li:hover .acc {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-right: -15px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.right ul li:hover .acc ul {
+    display: block;
+    margin: 10px;
+}
+.right ul li:hover .acc ul li {
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: black;
+}
+.right ul li:hover .acc ul li:last-child {
+    border-bottom: none;
+}
+
+.right ul li:hover .acc ul li:hover {
+    background-color: rgb(201, 197, 197);
+}
+
+.f {
+    height: 1500px;
+}
+
+
+.sub-menu-2 {
+    display: none;
+    /* display: flex; */
+}
+
+.hover-me:hover .sub-menu-2 {
+    display: flex;
+    position: absolute;
+    display: block;
+    top: 0;
+    /* margin-top: 0px; */
+    margin-left: 140px;
+    background-color: white;
+}
+
+.get {
+    padding-top: 8px;
+    /* padding-right: 8px; */
+    border-radius: 10px;
+    text-align: center;
+    /* align-items: center; */
+    width: 150px;
+    height: 40px;
+    /* border: 1px solid red; */
+    background-color: #ffead5;
+}
+
+span {
+    color: #999999;
+}
+
+#bold{
+    font-weight: 600;
+    color: black;
+}
+.bold {
+    color: black;
+    font-weight: 600;
+}
+
+.fas {
+    font-size: 16px;
+}
