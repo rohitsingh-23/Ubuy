@@ -1,0 +1,398 @@
+body{
+    background-color:#f8f8fa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lap_left_cont{
+        width: 25%;
+        margin-top: 40px;
+        height: 900px;
+        /* border: 1px solid red; */
+        margin-left: 10px;
+}
+.font{
+font-size: 16px;
+font-weight: 700;
+margin-top: 25px;
+
+}
+
+img {
+    cursor: pointer;
+  }
+
+.input-check-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 24px;
+    padding: 12px;
+    /* border: 1px solid red; */
+    border-radius: 10%;
+    background-color: #FFEBCD;
+    font-size: 14px;   
+     border-radius: 0.5rem !important; 
+     margin-top: 14px;
+
+}
+.m-0{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 15px;
+    align-items: center;
+    font-weight: 600;
+    MARGIN-TOP: -11PX;;
+    box-sizing: border-box;
+}
+.img_inside{
+    display: flex;
+    align-items: center;
+}
+.img_after{
+    MARGIN-TOP: 7PX;
+}
+.m-1{
+    display: flex;
+    font-size: 12px;
+}
+.pheight{
+  margin-top: -7px;
+  margin-left: 6px;
+  margin-right: 68px;
+         width: 74%;
+}
+.m-1-1{
+    margin-top:6px;
+} 
+.checkbox-round {
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    width: 1.3em;
+}
+.checkbox-round:checked {
+    /* background-color: #ffb100; */
+    border: 5px solid #ffb100;
+}
+.checkbox-round:hover{
+    outline-offset:10px;
+}
+.checkbox-round:hover{
+    border: 2px solid #ffb100;
+}
+.labelradio{
+font-size: 14px; 
+color: #666666;
+margin-top: -1px;
+}
+
+
+.back{
+   background-color:#ffb100;
+   color: whitesmoke;
+   display: flex;
+   align-items: center;
+   box-sizing: border-box;
+   margin-left: 2px;
+   width: 15%;
+   height: 35px;
+   margin-top: -5px;
+   border-radius: 50%;
+   padding: 12px;
+}
+.check-box-filter{
+   display: flex;
+   margin-top: 7px;
+   margin-left: 30px;
+   margin-left: 8px;
+}
+.check-box-color{
+   border: 1px solid #f002;
+   width: 70%;
+   display: flex;
+   background-color:white;
+   box-sizing: border-box;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   border-radius: 5%;
+}
+.inputsearch{
+   height: 10px;
+   width: 90%;
+   padding: 10px;
+   border:none;
+   font-size: 14px;
+   font-weight: 400; 
+   outline: none;
+}
+.appleHight{
+   line-height: 0px;
+   margin-left: px;
+}
+.cat-box{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 28px;
+}
+.cat-box1{
+   display: flex;
+}
+
+.arrow1{
+    /* border: 1px solid red; */
+    margin-left: 192px;
+    color:#a6a6a6 ;
+}
+.arrow2{
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    color:#a6a6a6 ;
+}
+.arrow3{
+    /* border: 1px solid red; */
+    margin-left: 135px;
+    color:#a6a6a6 ;
+}
+.arrow4{
+    /* border: 1px solid red; */
+    margin-left: 170px;
+    color:#a6a6a6 ;
+}
+.arrow5{
+    /* border: 1px solid red; */
+    margin-left: 140px;
+    color:#a6a6a6 ;
+}
+
+.checkbox{
+     outline: none;
+}
+label:hover{
+    cursor: pointer;
+}
+input:hover{
+cursor: pointer;
+}
+select:hover{
+    cursor: pointer;
+}
+.labelradio{
+    outline: none;
+    margin-top: 10px;
+}
+.colorC{
+    color: black;
+    font-size: 15px;
+}
+
+
+#sort {
+    margin-top: 12px;
+    height: 30px;
+    border-color: white;
+    /* border: transparent; */
+    
+}
+
+#sort > option:hover {
+    background-color: #ffb100;
+    cursor: pointer;
+}
+
+
+/* Header Start */
+
+
+.headerdiv {
+    background-color: white;
+    /* border: 1px solid red; */
+    position: sticky;
+    /* overflow: hidden; */
+    height: 70px;
+    top: 0;
+    box-shadow: 0px 2px 14px rgb(0 0 0 / 11%);
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.left ul {
+    display: inline-flex;
+   list-style: none; 
+   color: black;
+}
+
+.left ul li {
+    /* width: 120px; */
+    margin: 5px;
+    padding: 15px;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.explore-sub {
+    display: none;
+}
+
+.left ul li:hover .explore-sub {
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.left ul li:hover .explore-sub ul {
+    display: block;
+    margin: 10px;
+}
+
+.left ul li:hover .explore-sub ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: black;
+}
+.left ul li:hover .explore-sub ul li:hover {
+    background-color: #ffb919;
+}
+
+
+
+
+
+
+
+.left {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+.right {
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 40%;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right ul {
+   display: flex;
+   list-style: none; 
+   color: black;
+   justify-content: space-between;
+}
+
+.right ul li {
+    /* width: 120px; */
+    margin: 5px;
+    padding: 15px;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.acc {
+    display: none;
+}
+
+.right ul li:hover .acc {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-right: -15px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.right ul li:hover .acc ul {
+    display: block;
+    margin: 10px;
+}
+.right ul li:hover .acc ul li {
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: black;
+}
+.right ul li:hover .acc ul li:last-child {
+    border-bottom: none;
+}
+
+.right ul li:hover .acc ul li:hover {
+    background-color: rgb(201, 197, 197);
+}
+
+.f {
+    height: 1500px;
+}
+
+
+.sub-menu-2 {
+    display: none;
+    /* display: flex; */
+}
+
+.hover-me:hover .sub-menu-2 {
+    display: flex;
+    position: absolute;
+    display: block;
+    top: 0;
+    /* margin-top: 0px; */
+    margin-left: 140px;
+    background-color: white;
+}
+
+.get {
+    padding-top: 8px;
+    /* padding-right: 8px; */
+    border-radius: 10px;
+    text-align: center;
+    /* align-items: center; */
+    width: 150px;
+    height: 40px;
+    /* border: 1px solid red; */
+    background-color: #ffead5;
+}
+
+span {
+    color: #999999;
+}
+
+#bold{
+    font-weight: 600;
+    color: black;
+}
+.bold {
+    color: black;
+    font-weight: 600;
+}
+
+.fas {
+    font-size: 16px;
+}
