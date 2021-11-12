@@ -1,0 +1,231 @@
+body{
+    padding: 0px;
+    margin: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#container{
+    display: grid;
+    grid-template-columns:1Fr 2Fr 1Fr;
+    gap: 20px;
+    /* height: 800px; */
+    width: 90%;
+    height: 200px;
+    border-bottom: 1px solid #E9ECEF;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+#imagediv{
+    /* border: 1px solid red; */
+    width: 216px;
+    height: 173px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}#imagediv>img{
+    height: 100px;
+    width: auto;
+}
+#limage{
+    /* width: 70%; */
+    height: 70%;
+    /* height: %; */
+    padding: 10px;
+
+}
+#h2Tag{
+    font-size: 16px;
+    font-weight: normal;
+}
+#ihelo{
+    font-size: 14px;
+    font-weight:normal;
+}
+#price{
+    font-weight: bold;
+}
+.qty-input{
+    width: 20%;
+    outline: none;
+    border: 1 px solid rgb(255, 255, 255);
+    margin-top: 5px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+}
+#pDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rbtn{
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    color: #989e98;
+    /* color:  hsl(200,0%,90%); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    /* border: none; */
+}
+.rbtn:hover,input:hover{
+    cursor: pointer;
+}
+#lap{
+    width:80%;
+}
+/* all dives insede whole div */
+#wholeDiv{
+    /* border: 1px solid red; */
+    display:flex;
+    /* margin-left: 0px; */
+}
+#rightdiv{
+    /* display: flex; */
+    justify-content: center;
+    width:70%;
+    border-left: 1px solid #E9ECEF;
+    line-height: 20px;
+    
+}
+#h2_below_div{
+    margin-top:0px ;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around ;
+    line-height: 10px;
+    /* text-align: end; */
+    
+    /* border:1px solid blue; */
+
+}
+
+/* #left_div{
+    width: 30%; 
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px;
+     display: inline;
+} */
+ #right_div{
+text-align: end;
+    
+} 
+
+/* #rightdiv{
+    border: 1px solid blue;
+    display: flex;
+} */
+
+#checkbtn{
+    background-color: #ffb919;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    /* width: 500px; */
+}
+#h1_summary{
+    font-size: 18px;
+}
+.h4Tag,.h4TagP{
+    font-size: 13px;
+    font-weight:700;
+}
+#allDiv{
+    /* border: 1px solid green; */
+    width: 360px;
+    margin: 10px;
+}
+#checkbtn{
+ width: 100%;
+ border-radius: 5px;
+ border: none;
+}
+#checkbtn:hover{
+    color: black;
+    cursor: pointer;
+}
+#checkbtnDiv{
+    /* border: 1px solid blue; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+.h4p{
+    color: #b6bbbf;
+}
+#h6disc{
+    font-size:16px ;
+    margin-top: 0px;
+}
+#pdisc{
+    font-size: 13px;
+    margin-top: -30px;
+}
+
+#promobtn{
+    margin-top:10px ;
+    border-radius: 5px;
+    background-color:#ffb919;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    border:none ;
+}
+
+#promobtn:hover{
+    color: black;
+    cursor: pointer;   
+}
+#input{
+    width: 93.95%;
+    padding: 10px;
+    /* border: 1px solid gray; */
+    font-size: 13px;
+    outline: none;
+}
+#divBottom{
+    /* border: 1px solid purple; */
+    width: 360px;
+    margin: 10px;
+}
+#entireDives{
+height: 400px;
+margin: 10px;
+width: 380px;
+padding: 10px;
+/* border: 1px solid gold; */
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius:10px ;
+}
+
+#sh1{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.shadow{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.priceTag{
+    font-weight:bold;
+    font-size: 14px;
+}
+
+.cartName{
+    /* font-size: 14px; */
+    color: #7f92ad;
+    font-weight: bold;
+}
