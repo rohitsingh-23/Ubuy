@@ -1,0 +1,463 @@
+body {
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: space-around;
+}
+#adjImg{
+    width: 80px;
+    height: 50%;
+}
+
+#cartPage, #home:hover{
+    cursor: pointer;
+}
+
+.left {
+    /* border: 1px solid red; */
+    /* margin-left: 55px; */
+    width: 750px;
+    height: 1100px;
+}
+
+.imageDiv {
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 55px;
+    margin-left: 55px;
+}
+
+img {
+    width: 80px;
+    height: 55px;
+}
+
+.arrow {
+    /* border: 1px solid black; */
+    background-color: #f9f9f9;
+    width: 690px;
+    height: 50px;
+    margin-left: 55px;
+    margin-top: 12px;
+    display: flex;
+}
+
+.iconArr {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+.text {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.checkOut {
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    background-color: #f1f1f1
+}
+
+.join {
+    color: #ffb919;
+    text-decoration: none;
+}
+
+.shippingInfo {
+    /* border: 1px solid black; */
+    width: 690px;
+    height: 90px;
+    margin-left: 55px;
+    margin-top: 2px;
+    line-height: 17px;
+}
+
+.ship {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.para {
+    line-height: 17px;
+    font-size: 13px;
+    color: red;
+}
+
+.form {
+    /* border: 1px solid black; */
+    width: 690px;
+    height: 500px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.input {
+    width: 680px;
+    margin-bottom: 12px;
+    height: 28px
+}
+
+select {
+    width: 690px;
+    margin-bottom: 12px;
+    height: 30px;
+}
+
+.checkbox {
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 35px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.check {
+
+    margin-top: 20px;
+}
+
+.checkPara {
+    padding-left: 5px;
+}
+
+#btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffb919;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 13px;
+    /* margin-top: 10px; */
+}
+#btn:hover{
+    cursor: pointer;
+}
+
+.shipInfo {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+
+.shipHigh {
+    font-size: 14px;
+    padding-left: 10px;
+    /* border: 2px sloid black; */
+    height: 300px;
+}
+
+.firstBox {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 40px;
+    display: flex;
+}
+
+.secondBox {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 48px;
+    display: flex;
+}
+
+.radio {
+    margin-top: 17px;
+}
+
+.paymentBox {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 100px;
+    margin-top: 12px;
+    background-color: #f1f1f1;
+    /* display: flex; */
+}
+
+.payPal {
+    height: 33px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.visa{
+    height:33px;
+    width:50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.wallet{
+    height:33px;
+    width:50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.local{
+    height: 33px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.payments:hover{
+    cursor: pointer;
+
+}
+
+.right {
+    /* border: 1px solid red; */
+    width: 410px;
+    height: 1000px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 15px;
+
+}
+
+.cartImg {
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 40px;
+    margin-left: 370px;
+    
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+}
+.productInfo {
+    
+    height: 500px;
+    margin-top: 25px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.spanLeft {
+    padding-left: 130px;
+}
+
+.pay {
+    width: 320px;
+    height: 37px;
+    margin-left: 43px;
+    border-radius: 5px;
+    background-color: #ffb919;
+    border: none;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 24px;
+}
+.disclaimer{
+    margin-left: -10px;
+
+}
+
+.pay:hover{
+    cursor: pointer;
+}
+
+.login {
+    color: #ffb919;
+    text-decoration: none;
+}
+
+.fas {
+    color: #cccccc;
+}
+
+.fa-question-circle {
+    color: black;
+}
+
+
+.headings {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+.shipHigh{
+    font-size: 12px;
+    font-family: "Open Sans";
+    line-height: 17px;
+}
+.productInfo{
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: 400; */
+    line-height: 20px;
+    border: 1px solid grey;
+}
+.productInfo>span, .productInfo>p{
+    padding-left: 25px;
+}
+.text{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.join{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.shipHeading{
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+.paymentsRadio{
+    padding: 90px;
+    align-items: center;
+}
+.upperPay{
+    height: 50px;
+    display: flex;
+    font-size: 11px;
+    font-weight: 17px;
+    font-family: "Open Sans";
+}
+.lowerPay{
+    height: 50px;
+    display: flex;
+    font-size: 11px;
+    font-weight: 17px;
+    font-family: "Open Sans";
+    
+}
+#state{
+    width: 100%;
+    border: none;
+    height: 20px;
+}
+.sField{
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(201, 204, 201) ;
+}
+.sField>legend{
+    color: rgb(161, 163, 161);
+}
+.input{
+    border: 1px solid rgb(201, 204, 201);
+}
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Nitin Code */
+#orderReviewBox1{
+    margin: auto;
+    width: 430px;
+    height: 270px;
+    border: none;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#orderReviewBox {
+    margin: auto;
+    border: 1px solid #FFB919;
+    margin-top: 0%;
+}
+#Fast-delivery-product {
+   margin-bottom: -21px;
+   margin-left: 4%;
+   background-color: #FFB100;
+   height: 20px;
+   width: 65%;
+   text-align: center;
+   border: 2px solid orange;
+   color: whitesmoke;
+   font-weight: bold;
+   border-radius: 2px;
+   padding-top: 0.7%;
+   font-size: 13px;
+}
+#container {
+    background-color: #F9F9F9;
+    width: 86%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 3.5%;  
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+#imageDiv{
+    align-items: center;
+    background-color: #F9F9F9;
+    width: 30%;
+    align-items: center;
+    margin-top: 1%;
+}
+#imageDiv>img{
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    align-items: center;
+    background-color: #F9F9F9;
+    padding: 9%;
+}
+#itemDetails{
+    width:75%;
+    padding-left:4% ;
+    padding-top: 0;
+}
+#itemDetails>#item_name{
+    color: #000000;
+    font-size: 14px;
+    padding-top: 0%;
+}
+#itemDetails p{
+    color: #37393A;
+    margin-top: 0%;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+#itemDetails> #item_Unit_Price{
+    color: rgb(223, 37, 37);
+}
+#itemDetails>#item_Sub_Total{
+    color: rgb(223, 37, 37);
+}
+.end{
+    display: flex;
+    justify-content: center;
+    color:#FFB100 ;
+}
+
