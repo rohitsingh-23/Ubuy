@@ -149,7 +149,7 @@
             <ul>
             <li><a href=""></a><i class="fas fa-boxes"></i>&nbsp;&nbsp; <span id="bold">India<i class="fas fa-angle-down"></i></span> </a></li>
             <li><a href=""></a><i class="fas fa-globe-americas"></i>&nbsp;&nbsp;English <span><i class="fas fa-angle-down"></i></span> </a></li>
-            <li><a href=""></a><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Account <span><i class="fas fa-angle-down"></i></span> </a>
+            <li><a href=""></a><i class="fas fa-user-circle"></i>&nbsp;&nbsp; <span id="username">Account</span> <span><i class="fas fa-angle-down"></i></span> </a>
                 <div class="acc">
                     <ul>
                         <li> <span id="bold"> <p>Welcome</p> </span> </li>
@@ -492,4 +492,9 @@ for(var i = 0; i < qty.length;i++){
         document.getElementById("checkbtn").addEventListener("click", function(){
             window.location.href = "checkout.html"
         })
+
+        var username = JSON.parse(localStorage.getItem("username"))
+    if(username.length>0){
+        document.getElementById("username").textContent = username
+    }
 </script>
