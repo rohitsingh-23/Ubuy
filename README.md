@@ -16,7 +16,7 @@
 * Sort items by there price
 * Filter items by there names
 * Add items into the cart
-* update items prices according to quantity and promo coupon in the cart
+* update items price according to their quantity and promo coupon in the cart
 * procees to pay after entering the dropout details
 * pay by debit card
 * checkout
