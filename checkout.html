@@ -12,15 +12,8 @@
     <title>Checkout</title>
     <script src="https://kit.fontawesome.com/f1949c3017.js" crossorigin="anonymous"></script>
 
-
-    <link rel="icon" href="https://d3ulwu8fab47va.cloudfront.net/media/favicon/default/favicon.ico" type="image/x-icon">
 </head>
 <style>
-   
-=======
-</head>
-<style>
-
 
 </style>
 
@@ -28,14 +21,7 @@
     <div class="container">
         <div class="left">
             <div class="imageDiv">
-
-                <a href="Landing Page.html">
-                    <img src="https://www.ubuy.co.in/skin/frontend/default/ubuy/images/logo_in.jpg" alt="">
-                </a>
-                
-
                 <img src="https://www.ubuy.co.in/skin/frontend/default/ubuy/images/logo_in.jpg" alt="">
-
             </div>
             <div class="arrow">
                 <div class="iconArr">
@@ -88,10 +74,7 @@
                     <input type="number" id="postalCode" class="input" placeholder="Zip / Postal Code*">
 
                     <fieldset class="sField">
-     <legend >Address Type</legend>
-
                         <legend>Address Type</legend>
-
                         <select name="" id="state">
                             <option value="">Home</option>
                             <option value="">Office</option>
@@ -123,20 +106,6 @@
                 <div class="paymentBox">
                     <div class="upperPay">
                         <!-- <input type="radio" class="paymentsRadio"> -->
-
-                         <img class="payPal"
-                            src="https://ubuykw.s3.amazonaws.com/ubuycom/payment-icon/onepage/icon-159807214043.png"
-                            alt="">
-                            <p class="payments">PayPal Express Checkout</p>
-                            <img class="visa" src="https://ubuykw.s3.amazonaws.com/ubuycom/payment-icon/onepage/icon-159807414841.png" alt="">
-                            <p class="payments">Visa/Mastercard/Amex (International cards)</p>
-                    </div>
-                    <div class="lowerPay">
-                        <img class="local" src="https://ubuykw.s3.amazonaws.com/ubuycom/payment-icon/onepage/icon-162693429880.png" alt="">
-                        <p class="payments">Visa/MasterCard/RuPay (Local cards)</p>
-                        <img class="wallet" src="https://ubuykw.s3.amazonaws.com/ubuycom/payment-icon/onepage/icon-161950798978.png" alt="">
-                        <p class="payments">Wallets/Net Banking/UPI</p>
-
                         <img class="payPal"
                             src="https://ubuykw.s3.amazonaws.com/ubuycom/payment-icon/onepage/icon-159807214043.png"
                             alt="">
@@ -157,7 +126,6 @@
                             alt="">
                         <p class="payments">Visa/MasterCard/RuPay (Local cards)</p>
 
-
                     </div>
                 </div>
             </div>
@@ -169,32 +137,6 @@
 
             </div>
             <p class="headings">Order Review</p>
-
-            <div id="orderReviewBox">
-                
-                <p>Fast Deleivery Products</p>
-                <div id="cartitem"></div>
-            </div>
-            <div class="productInfo">
-                <span>Shipping Weight - Round Up</span>
-                <span class="spanLeft">5.5 Kg(s)</span>
-                <hr>
-                <span>Subtotal</span>
-                <span class="spanLeft">INR70,197.00</span>
-                <hr>
-                <span>Shipping & Handling</span>
-                <span>INR5,775.00</span>
-                <hr>
-                <span>Gateway Charges</span>
-                <span>INR2,606.45</span>
-                <hr>
-                <span>Customs/import Duties, Taxes & VAT</span>
-                <span>Not Included </span>
-                <hr>
-                <span>Grand Total</span>
-                <span>INR78,578.45
-                    (USD1,020.49)</span>
-
             <div id="orderReviewBox1">
                 <div id="Fast-delivery-product">Fast Deleivery Products</div>
                 <div id="orderReviewBox"></div>
@@ -245,13 +187,7 @@
                 <hr>
                 <button class="pay">PROCEED TO PAY</button>
                 <hr>
-
-                <p>1. Disclaimer - Since your order will arrive from the USA, a formal customs clearance procedure will
-                    be there. In rare cases (Depending upon product’s nature), you may need to provide documents to
-                    customs authority if they request, to clear the shipment from customs. In case, if you need any help
-                    during the clearance process, you may reach to our 24/7 customer service.</p>
-                <p>2. The transaction will take place in USD currency (Transaction amount : 1,020.49 USD).</p>
-        <p class="disclaimer">1. Disclaimer - Since your order will arrive from the USA, a formal customs
+                <p class="disclaimer">1. Disclaimer - Since your order will arrive from the USA, a formal customs
                     clearance procedure will
                     be there. In rare cases (Depending upon product’s nature), you may need to provide documents to
                     customs authority if they request, to clear the shipment from customs. In case, if you need any help
@@ -265,7 +201,6 @@
     </div>
     <div class="footer">
         <p>© 2021 Ubuy</p>
-
         <div class="end" >
             <div class="privacy">
                 <p>Privacy</p>
@@ -281,92 +216,11 @@
 
         </div>
 
-
     </div>
 
 </body>
 <script>
     let data = [{
-
-        image_url:`https://m.media-amazon.com/images/I/71an9eiBxpL._AC_SL1500_.jpg`,
-        Name: "2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
-        Capacity: `Capacity: 256GB`,
-        Color: `Color: Space Gray`,
-        Brand: `Apple`,
-        Weight: `Weight: 7.71 Kg/Qty`,
-        Unit_Price: `Unit Price: INR118413`,
-        Sub_Total: `Sub Total: lINR118413`,
-    },
-    {   image_url:`https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_SL1500_.jpg`,
-        Name:`Logitech G502 HERO High Performance Wired Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, On-Board Memory, PC / Mac`,
-        Pattern_Name:`Pattern:   Mouse`,
-        Style:`Style: HERO Sensor`,
-        Brand: `Logitech`,
-        Weight: `Weight: O.91KG/Qty`,
-        Unit_Price: `Unit Price: INR4,019.00`,
-        Sub_Total: `Sub Total: INR4,019.00`,
-    }
-]
-
-let storedData = localStorage.setItem("shoppingList",JSON.stringify(data));
-console.log(data)
-let getData = localStorage.getItem("shoppingList") || []
-
-let orderBox = document.getElementById("orderReviewBox");
-let mainDiv = document.createElement("div");
-mainDiv.setAttribute("id","container");
-orderBox.append(mainDiv)
-
-display()
-
-function display(){
-    data.map(function(item){
-        
-        var pdiv = document.createElement("div");
-        pdiv.setAttribute("id", "pdiv")
-
-        var leftdiv = document.createElement("div");
-        leftdiv.setAttribute("id", "leftdiv")
-        var img =  document.createElement("img");
-        img.setAttribute("id", "pimg")
-        img.setAttribute("scr", item.image_url);
-        // console.log(leftdiv)
-
-        var rightdiv = document.createElement("div");
-        rightdiv.setAttribute("id", "rightDiv")
-         var name = document.createElement("p");
-         name.setAttribute("id", "pname");
-         name.textContent = item.Name;
-        
-         var branddiv = document.createElement("div");
-         branddiv.setAttribute("id", "brand");
-         var brand = document.createElement("p");
-         brand.textContent = "Brand:";    
-         var bname = document.createElement("p");
-         bname.textContent = item.Brand;
-         
-         var wdiv = document.createElement("div");
-         wdiv.setAttribute("id", "wei");
-         var weight = document.createElement("p");
-         brand.textContent = "Weight:";    
-         var pweight = document.createElement("p");
-         weight.textContent = item.Weight;
-
-        wdiv.append(weight, pweight)
-        branddiv.append(brand, bname);
-
-        leftdiv.append(img);
-    rightdiv.append(name, branddiv, wdiv);
-        pdiv.append(leftdiv, rightdiv)
-        // console.log(pdiv)
-
-        document.getElementById ("orderReviewBox").append(pdiv)
-
-
-
-    })
-}
-
             image_url: `https://m.media-amazon.com/images/I/71an9eiBxpL._AC_SL1500_.jpg`,
             Name: "2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
             Capacity: `Capacity: 256GB`,
@@ -457,7 +311,6 @@ function display(){
     document.getElementById("subTotal").textContent = subtotal
     document.getElementById("gatewayCharges").textContent = gatewayCharges
     document.getElementById("grandTotal").textContent = grandTotal
-
 </script>
 
 </html>
