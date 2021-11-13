@@ -11,7 +11,7 @@
 * VS Code
 * Github
 
-#functionalities
+# functionalities
 * Signup and Login
 * Sort items by there price
 * Filter items by there names
@@ -21,7 +21,7 @@
 * pay by debit card
 * checkout
 
-#Website flow
+# Website flow
 
 *Signup and Login
 
