@@ -175,7 +175,7 @@ margin-bottom: -20px;
     function check(){
         var cvv = document.getElementById("cvv").value;
         var cNumber = document.getElementById("cNumber").value;
-        
+        var name = document.getElementById("name").value
         if(name.length<=0){
             alert("Please Enter Card Holder Name")
         }else if(cvv.length!==3){
@@ -184,6 +184,7 @@ margin-bottom: -20px;
             alert("Invalid Card Number")
         }else{
             alert("Order Placed Successfully")
+            window.location.href="Landing page.html"
         }
         // console.log("Hello");
     }
